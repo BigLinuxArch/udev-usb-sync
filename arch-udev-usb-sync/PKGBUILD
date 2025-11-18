@@ -22,3 +22,4 @@ package() {
     install -Dm755 udev-usb-sync      -t "$pkgdir/usr/bin"
     install -Dm644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
+
